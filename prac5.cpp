@@ -73,7 +73,7 @@ public:
         cout << "Result Default Constructor Called" << endl;
     }
 
-    Result(int r, int s, int t) : Student(r), Sports(s)
+    Result(int r, int m, int t) : Student(r), Sports(m)
     {
         totalMarks = t;
         cout << "Result Parameterized Constructor Called" << endl;
